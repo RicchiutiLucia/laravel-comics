@@ -7,6 +7,10 @@
 
 @import 'partials/header';
 @import 'partials/footer';
+@import 'partials/banner';
+@import 'partials/jumbo';
+@import 'partials/comics';
+
 
 * {
     margin: 0;
@@ -21,7 +25,7 @@ html {
 main {
     background-color: $color-bg-main;
     color: white;
-    padding: 2rem 0;
+    padding: 0 0 2rem;
     font-size: 2rem;
 }
 
